@@ -1,43 +1,17 @@
-/* the dimensions of any box includes its border and padding. */
 * {
     box-sizing: border-box;
 }
 
-/* Convert the container to a flexbox */
 .container {
     display: flex;
     flex-wrap: wrap;
 }
 
 .column {
-    /* flex: 1 0 0px; */
     flex: 1;
     min-width: 300px;
-
 }
 
 img {
     width: 100%;
 }
-
-/* 
-.column:nth-child(1) {
-    background-color: pink;
-}
-
-.column:nth-child(2) {
-    background-color: lavenderblush;
-}
-
-.column:nth-child(3) {
-    background-color: red;
-}
-
-.column:nth-child(4) {
-    background-color: orange;
-} */
-
-/* .testDiv {
-    background-color: blue;
-    width: 100px;
-} */
